@@ -29,6 +29,7 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 }
 
 body * {
@@ -37,7 +38,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%px;
+  max-width: 588px;
   margin: 56px auto 0px; /* primeiro eh margin de cima, depois dois lados, depois em baixo */
   padding: 0 24px;
 }
@@ -163,3 +165,14 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+} /*De 700 px para cima,adicionar estas regras*/
