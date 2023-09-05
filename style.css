@@ -33,7 +33,7 @@ body {
 }
 
 body p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 body * {
@@ -55,7 +55,7 @@ body * {
 }
 
 #profile img {
-  width: 112px;
+  width: 200px;
   display: block;
   margin: auto;
 }

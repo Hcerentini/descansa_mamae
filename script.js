@@ -12,8 +12,8 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/profileHenrique.png")
+    img.setAttribute("src", "./assets/Descansa_Mamae_final__1_-removebg-preview.png")
   } else {
-    img.setAttribute("src", "./assets/profileHenrique.png")
+    img.setAttribute("src", "./assets/Descansa_Mamae_final__1_-removebg-preview.png")
   }
 }
