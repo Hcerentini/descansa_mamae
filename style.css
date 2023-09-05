@@ -32,6 +32,10 @@ body {
   height: 100vh;
 }
 
+body p {
+  font-size: 18px;
+}
+
 body * {
   color: var(--text-color);
   font-family: "Inter", sans-serif;
